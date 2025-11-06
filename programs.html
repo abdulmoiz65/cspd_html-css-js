@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Programs | CSPD – Centre for Skills & Professional Development | MAJU</title>
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --brand:#0d6efd;
+      --muted:#6c757d;
+      --primary:#000080;
+    }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial;
+      scroll-behavior: smooth;
+    }
+    .navbar {
+      transition: all 0.3s ease-in-out;
+    }
+    .navbar.scrolled {
+      background: rgba(255,255,255,0.95)!important;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .hero {
+      background: linear-gradient(90deg,rgba(13,110,253,0.08),rgba(13,110,253,0.02));
+      padding: 6rem 0;
+    }
+    .section-title {
+      border-left: 4px solid var(--brand);
+      padding-left: 12px;
+    }
+    .program-tag {
+      font-size: .75rem;
+      padding: .15rem .6rem;
+      border-radius: 999px;
+      background: #eef4ff;
+      color: var(--brand);
+    }
+    footer {
+      background: #0b1220;
+      color: #e9eef8;
+    }
+    a { color: var(--primary); }
+    .fade-in {
+      animation: fadeInUp 1s ease-in-out;
+    }
+    @keyframes fadeInUp {
+      from {opacity:0; transform:translateY(40px);}
+      to {opacity:1; transform:translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="./maju.png" alt="MAJU Logo" width="55" height="55" class="rounded me-2"/>
+      <div>
+        <div style="font-weight:700">MAJU CSPD</div>
+        <small class=" text-muted d-none d-lg-block">Centre for Skills &amp; Professional Development</small>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#about">About us</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#calendar">Calendar</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#enrollments">Enrollments</a></li>
+        <li class="nav-item"><a class="nav-link active" href="programs.html">Programs</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#news">News & Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="hero text-center text-lg-start fade-in">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h1 class="display-5 mb-3">Programs at Centre for Skills & Professional Development (CSPD) – MAJU</h1>
+        <p class="lead text-muted">Explore skill-building programs designed for professionals, students, and organizations — crafted to empower future leaders.</p>
+        <a href="#open-enrollment" class="btn btn-primary btn-lg me-2">Explore Programs</a>
+        <a href="#calendar" class="btn btn-outline-primary btn-lg">View Calendar</a>
+      </div>
+      <div class="col-lg-6 mt-4 mt-lg-0 text-center">
+        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=900&q=80"
+             class="img-fluid rounded shadow animate__animated animate__fadeInRight" alt="Programs Image">
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="py-5">
+  <div class="container">
+
+    <!-- Open Enrollment -->
+    <section id="open-enrollment" class="mb-5 fade-in">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="./majuNvtcc.png"
+               class="img-fluid rounded shadow-sm mb-3" alt="Open Enrollment Programs">
+        </div>
+        <div class="col-md-6">
+          <h3 class="section-title">Open Enrollment Programs</h3>
+          <p class="mt-3">CSPD’s Open Enrollment Programs offer short, intensive courses for professionals aiming to upskill in areas like management, communication, and technology. These programs are flexible, impactful, and globally recognized.</p>
+          <ul>
+            <li>Industry-driven curriculum</li>
+            <li>Professional trainers and experts</li>
+            <li>Certificate of completion</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Programs -->
+    <section id="upcoming" class="mb-5 fade-in">
+      <h3 class="section-title mb-4">Upcoming Programs</h3>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
+                 class="card-img-top" alt="Procurement Management">
+            <div class="card-body">
+              <span class="program-tag">Open Enrollment</span>
+              <h5 class="card-title mt-2">Procurement Management</h5>
+              <p class="card-text text-muted">Learn procurement planning, vendor management, and negotiation techniques.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80"
+                 class="card-img-top" alt="Leadership Program">
+            <div class="card-body">
+              <span class="program-tag">Professional</span>
+              <h5 class="card-title mt-2">Leadership & Team Building</h5>
+              <p class="card-text text-muted">Develop essential leadership qualities and effective team management skills.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80"
+                 class="card-img-top" alt="Digital Marketing">
+            <div class="card-body">
+              <span class="program-tag">Certification</span>
+              <h5 class="card-title mt-2">Digital Marketing Essentials</h5>
+              <p class="card-text text-muted">Master social media, SEO, and advertising to enhance your digital presence.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Program Calendar -->
+    <section id="calendar" class="mb-5 fade-in">
+      <h3 class="section-title">Program Calendar</h3>
+      <!-- <img src="./calender.jpg" class="img-fluid rounded shadow mt-3" alt="Program Calendar"> -->
+      <div class="mt-3"><a class="btn btn-outline-primary" href="Program Calendar.pdf" download >Download Calendar</a></div>
+    </section>
+    <!-- Policy Accordion -->
+    <section id="policy" class="mb-5 fade-in">
+      <h3 class="section-title mb-4">Cancellation & Deferral Policy</h3>
+      <div class="accordion" id="policyAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">Participant Cancellations</button></h2>
+          <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#policyAccordion">
+            <div class="accordion-body">
+              <ul>
+                <p>In the event of a participant’s cancellation, the following policy will apply:</p>
+                <li>5 days before start: No cancellation fee.</li>
+                <li>Within 4–2 days: 50% forfeited.</li>
+                <li>Within 1 day or no-shows: 100% forfeited.</li>
+              </ul>
+              <p>All cancellation requests must be submitted in writing to the Center for Skills and Professional Development (CSPD).</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">Postponement by CSPD – MAJU</button></h2>
+          <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#policyAccordion">
+            <div class="accordion-body">
+              <p>In case of any unforeseen circumstances, CSPD – MAJU reserves the right to postpone the workshop. In such cases, participants may either:
+              </p>
+              <p>•	Request a full refund,</p>
+              <p>•	Defer their registration to the next available session of the same program.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">Substitutions</button></h2>
+          <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#policyAccordion">
+            <div class="accordion-body">
+              <p>Organizations may nominate a substitute participant up to 2 days before the workshop start date. In case an application cannot be accommodated, the deposited payment will be returned.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">Deferrals</button></h2>
+          <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#policyAccordion">
+            <div class="accordion-body">
+              <p>All deferral requests must be made in writing at least 2 days before the workshop.</p>
+              <p>
+              Participants may defer their registration to another session of the same program within six months. The deposited fee will be carried forward.
+              </p>
+              </p>
+              Please note that only one deferral is permitted. After six months, the deposited fee will be forfeited.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customized Programs -->
+    <!-- <section id="customized" class="mb-5 fade-in">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h3 class="section-title">Customized Programs</h3>
+          <p class="mt-3">CSPD designs bespoke programs tailored to organizations’ specific needs, integrating academic research with practical industry experience for measurable impact.</p>
+          <ul>
+            <li>Corporate Training Solutions</li>
+            <li>Industry Partnerships</li>
+            <li>Specialized Workshops</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=900&q=80"
+               class="img-fluid rounded shadow-sm" alt="Customized Programs">
+        </div>
+      </div>
+    </section> -->
+
+  </div>
+</main>
+
+<footer class="py-4 text-center" style="background:#fff;color:#000;box-shadow:0 -6px 24px rgba(0,0,0,0.12);">
+    <div class="container">
+        <p class="mb-0">© 2025 CSPD – Mohammad Ali Jinnah University | All Rights Reserved</p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  window.addEventListener('scroll', function() {
+    const nav = document.querySelector('.navbar');
+    if (window.scrollY > 50) { nav.classList.add('scrolled'); }
+    else { nav.classList.remove('scrolled'); }
+  });
+</script>
+</body>
+</html>
